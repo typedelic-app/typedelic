@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'FiraCode';
+  src: url(./font/FiraCode-Regular.woff) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url(./font/FiraCode-Bold.woff) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url(./font/NunitoSans-Regular.woff) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url(./font/NunitoSans-ExtraBold.woff) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@import '~codemirror/lib/codemirror.css';
+@import '~katex/dist/katex.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import './styles/syntax.scss';

@@ -1,0 +1,167 @@
+.react-codemirror2 {
+  height: 100%;
+}
+
+.CodeMirror {
+  font-family: var(--code-font-family);
+  height: 100%;
+}
+
+.CodeMirror pre.CodeMirror-line {
+  letter-spacing: 0em;
+  word-wrap: break-word;
+  word-break: break-all;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: auto;
+  -webkit-text-stroke: 1px transparent;
+  color: var(--text);
+}
+
+.CodeMirror,
+.CodeMirror-gutters {
+  background-color: var(--editorbg);
+  border: none;
+}
+
+.CodeMirror .CodeMirror-linenumber {
+  color: var(--comment);
+  font-size: 13px;
+  opacity: 0.5;
+  margin-top: 0.25em;
+  letter-spacing: -0.01rem;
+  font-family: var(--code-font-family);
+  margin-left: -4px;
+}
+
+.CodeMirror .CodeMirror-linenumbers {
+  background: var(--editorbg);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  padding-right: 0px;
+  height: 100%;
+}
+
+.CodeMirror .CodeMirror-gutters {
+  background: var(--editorbg);
+  border-right: 0px;
+  .CodeMirror-gutter-elt {
+    padding-left: 0;
+  }
+}
+
+.CodeMirror .CodeMirror-guttermarker {
+  color: var(--text);
+}
+
+.CodeMirror .CodeMirror-cursor {
+  border-left: 1px solid var(--text);
+}
+
+/* ===============================================
+  #  selected color
+  =============================================== */
+
+.CodeMirror {
+  div.CodeMirror-selected {
+    background: var(--select);
+  }
+
+  .CodeMirror-line::selection,
+  .CodeMirror-line > span::selection,
+  .CodeMirror-line > span > span::selection {
+    background: var(--select2);
+  }
+
+  .CodeMirror-line::-moz-selection,
+  .CodeMirror-line > span::-moz-selection,
+  .CodeMirror-line > span > span::-moz-selection {
+    background: var(--select2);
+  }
+}
+
+/* ===============================================
+  #  color setting
+  =============================================== */
+
+.CodeMirror {
+  span.cm-comment,
+  .CodeMirror-guttermarker-subtle,
+  span.cm-quote {
+    color: var(--comment) !important;
+    /* font-style: italic; */
+  }
+
+  span.cm-variable-3,
+  span.cm-type,
+  span.cm-variable-2,
+  span.cm-builtin,
+  span.cm-bracket,
+  span.cm-comment.cm-def {
+    color: var(--text);
+  }
+
+  span.cm-atom,
+  span.cm-number,
+  span.cm-comment.cm-attribute,
+  span.cm-attribute,
+  span.cm-string,
+  span.cm-def,
+  span.cm-strong,
+  span.cm-strikethrough,
+  span.cm-em {
+    color: var(--secondary);
+  }
+
+  span.cm-meta,
+  span.cm-property {
+    color: var(--accent);
+  }
+
+  span.cm-operator,
+  span.cm-tag,
+  span.cm-header,
+  span.cm-link,
+  span.cm-keyword {
+    color: var(--primary);
+  }
+
+  span.cm-link {
+    font-weight: 400;
+  }
+
+  span.cm-variable,
+  span.cm-url,
+  span.cm-string-2 {
+    color: var(--third);
+  }
+  span.cm-header-1 {
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  span.cm-header-2 {
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  span.cm-header-3 {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  span.cm-header-4 {
+    font-size: 15px;
+  }
+
+  span.cm-header-5,
+  span.cm-header-6 {
+    font-size: 14px;
+  }
+
+  span.cm-error {
+    background: var(--primary);
+    color: var(--text);
+  }
+}
