@@ -11,7 +11,7 @@ const Wrapper = styled.ul`
     list-style: none;
     display: flex;
     padding: 5px 0;
-    line-height: 1.3;
+    line-height: 1.4;
     font-size: 0.83rem;
     &:hover {
       background: var(--editorbg);

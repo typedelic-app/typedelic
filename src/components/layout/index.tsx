@@ -16,7 +16,7 @@ const Layout = () => {
   const loading = useSelector((state: AppState) => state.view.loading);
 
   const [sidebarWidth, setSidebarWidth] = useState(165);
-  const [notebarWidth, setNotebarWidth] = useState(250);
+  const [notebarWidth, setNotebarWidth] = useState(265);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [width, setWidth] = useState(0);
 

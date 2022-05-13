@@ -46,11 +46,11 @@ const Wrapper = styled.div`
   }
   h1,
   h2 {
-    font-size: 21px;
+    font-size: 20px;
     line-height: 1.4;
     border-bottom: 1px solid var(--primary);
     margin: 30px 0 20px 0;
-    padding: 5px 0px 7px 25px;
+    padding: 5px 0px 5px 25px;
     position: relative;
     min-height: 21px;
     &:before {
@@ -65,8 +65,8 @@ const Wrapper = styled.div`
     }
   }
   h2 {
-    font-size: 19px;
-    min-height: 19px;
+    font-size: 18px;
+    min-height: 18px;
     &:before {
       content: 'H2';
     }
@@ -75,7 +75,7 @@ const Wrapper = styled.div`
   h4,
   h5,
   h6 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 20px 0 20px 0;
     position: relative;

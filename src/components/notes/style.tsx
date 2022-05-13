@@ -74,7 +74,7 @@ export const NoteWrapper = styled.div`
   cursor: pointer;
   transition: 0.2s ease background;
   h2 {
-    font-size: 1.18em;
+    font-size: 1.1em;
     line-height: 1.4;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -82,7 +82,7 @@ export const NoteWrapper = styled.div`
   }
   p {
     opacity: 0.7;
-    font-size: 13px;
+    font-size: 12px;
     padding: 6px 0 6px 0;
     overflow: hidden;
     text-overflow: ellipsis;
